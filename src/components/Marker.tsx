@@ -29,7 +29,7 @@ export class Marker extends React.Component<MarkerProps, State> {
   };
 
   state = {
-    recreateKey: false,
+    recreateKey: true,
     children: this.props.children
   };
 
